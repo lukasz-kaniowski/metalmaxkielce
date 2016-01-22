@@ -1,0 +1,16 @@
+{
+  "name": "metalmaxkielce.pl",
+  "version": "0.0.1",
+  "description": "Stron Metal Max SC",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/metalsmith/bin/metalsmith"
+  },
+  "author": "lukasz.kaniowski@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "metalsmith": "^2.1.0",
+    "metalsmith-layouts": "^1.4.2"
+  }
+}

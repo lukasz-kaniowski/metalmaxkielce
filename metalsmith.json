@@ -1,0 +1,11 @@
+{
+  "metadata": {
+    "title": "metalmaxkielce.pl",
+    "description": "Stron Metal Max SC"
+  },
+  "plugins": {
+    "metalsmith-layouts": {
+      "engine": "handlebars"
+    }
+  }
+}
