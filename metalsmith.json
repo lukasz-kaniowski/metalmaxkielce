@@ -5,7 +5,12 @@
   },
   "plugins": {
     "metalsmith-layouts": {
-      "engine": "handlebars"
+      "engine": "handlebars",
+       "partials": "partials"
+    },
+    "metalsmith-in-place": {
+      "engine": "handlebars",
+       "partials": "partials"
     }
   }
 }
