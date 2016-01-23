@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <title>{{ title }} | Metal Max</title>
-  <link rel="stylesheet"
-  href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
   <!-- header -->
   {{> nav }}
   <!-- end header -->
-  
+
   <div class="main-wrapper">
     {{{ contents }}}
   </div>
@@ -18,5 +17,11 @@
   <!-- footer -->
   {{> footer }}
   <!-- end footer -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <!-- TODO add local version of jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
