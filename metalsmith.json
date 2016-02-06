@@ -6,11 +6,19 @@
   "plugins": {
     "metalsmith-layouts": {
       "engine": "handlebars",
-       "partials": "partials"
+      "partials": "partials"
     },
     "metalsmith-in-place": {
       "engine": "handlebars",
-       "partials": "partials"
+      "partials": "partials"
+    },
+    "metalsmith-watch": {
+      "paths": {
+        "${source}/**/*": true,
+        "partials/**/*": "**/*.html",
+        "layouts/**/*": "**/*.html"
+      },
+      "livereload": true
     }
   }
 }
