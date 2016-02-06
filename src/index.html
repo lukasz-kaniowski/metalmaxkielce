@@ -2,28 +2,74 @@
 layout: layout.hbs
 title: Strona glowna
 jumbotron:
-  image: http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_1040/v1454784293/metalmax/glowna/DSC_2226-header.jpg
+  image: http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_940/v1454784293/metalmax/glowna/DSC_2226-header.jpg
   title: Metal - Max
   description: Nasz sklep oferuje szeroki asortyment artykułów metalowych. Zapraszamy serdecznie do wizyty w sklepie na ul. Zagnańska 84a.
 asortyment:
-  title: Asortyment
+  title: Bogaty Asortyment
   buttonText: Zobacz pełny asortyment
+  mainImage: { title: poziomice, url: 'http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_940/v1454772282/metalmax/glowna/DSC_2328.jpg' }
+  images:
+    - { title: poziomice, url: 'http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454772282/metalmax/glowna/DSC_2319.jpg' }
+    - { title: 'haki, śruby rzymskie ...', url: 'http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454772282/metalmax/glowna/DSC_2302.jpg' }
+    - { title: 'liny, sznury', url: 'http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454772282/metalmax/glowna/lagomkeps.jpg' }
+    - { title: tarcze, url: 'http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454772282/metalmax/glowna/1433580584956.jpg' }
 ---
-{{#jumbotron}}
-  <div class="jumbotron">
-    <img src="{{image}}" alt="" />
-    <h1>
-      {{title}}
-    </h1>
-    <p>
-      {{description}}
-    </p>
+<div class="container">
+  {{#jumbotron}}
+  <div class="row">
+    <div class="col-md-12">
+      <br/>
+      <img src="{{image}}" alt="" />
+    </div>
   </div>
-{{/jumbotron}}
+  <h1 class="aligncenter">{{title}}</h1>
+  <p class="aligncenter">{{description}}</p>
+  {{/jumbotron}}
 
-{{#asortyment}}
-  <div class="section">
-    <h1>{{title}}</h1>
-    <a class="btn btn-primary" role="button" href="/asortyment">{{buttonText}}</a>
+  {{#asortyment}}
+  <hr>
+  <h1>
+    {{title}}
+  </h1>
+  {{#mainImage}}
+  <div class="row">
+    <div class="col-md-12">
+      <img src="{{url}}" alt="{{title}}" />
+    </div>
   </div>
-{{/asortyment}}
+  <br/>
+  {{/mainImage}}
+
+  <div class="filter-area">
+    <div class="row" data-tesla-plugin="masonry">
+      {{#images}}
+      <div class="col-md-4 design col-xs-6">
+        <div class="filter-item">
+          <div class="filter-item-cover">
+            <div class="filter-item-cover-hover">
+              <div class="filter-item-cover-elements">
+                <a href="{{url}}" class="swipebox"><i class="icon-336" title="336"></i></a>
+              </div>
+            </div>
+            <img src="{{url}}" alt="{{title}}" />
+          </div>
+
+          <div class="filter-item-details">
+            <p>{{title}}</p>
+          </div>
+        </div>
+      </div>
+
+      {{/images}}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12" style="text-align: center">
+      <a class="button-4" href="/asortyment">{{buttonText}}</a>
+    </div>
+  </div>
+  {{/asortyment}}
+
+</div>
