@@ -1,7 +1,29 @@
 ---
-title: Strona glowna
 layout: layout.hbs
+title: Strona glowna
+jumbotron:
+  image: http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_1040/v1454784293/metalmax/glowna/DSC_2226-header.jpg
+  title: Metal - Max
+  description: Nasz sklep oferuje szeroki asortyment artykułów metalowych. Zapraszamy serdecznie do wizyty w sklepie na ul. Zagnańska 84a.
+asortyment:
+  title: Asortyment
+  buttonText: Zobacz pełny asortyment
 ---
-<p>
-  {{title}}
-</p>
+{{#jumbotron}}
+  <div class="jumbotron">
+    <img src="{{image}}" alt="" />
+    <h1>
+      {{title}}
+    </h1>
+    <p>
+      {{description}}
+    </p>
+  </div>
+{{/jumbotron}}
+
+{{#asortyment}}
+  <div class="section">
+    <h1>{{title}}</h1>
+    <a class="btn btn-primary" role="button" href="/asortyment">{{buttonText}}</a>
+  </div>
+{{/asortyment}}
