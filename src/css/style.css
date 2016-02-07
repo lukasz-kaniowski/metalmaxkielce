@@ -130,7 +130,7 @@ a {
     transition: ease-in-out 0.2s;
 }
 /* ========================================================================
-                                END SLOW EFFECT 
+                                END SLOW EFFECT
 ========================================================================= */
 
 h1, h2, h3, h4, h5, h6 {
@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.5em;
 	margin-bottom: 15px;
 }
-iframe,
+/*iframe,*/
 img {
   max-width: 100%;
   height: auto;
@@ -206,11 +206,11 @@ img {
 	margin-bottom: 60px;
 }
 /* ========================================================================
-                                START BUTTONS 
+                                START BUTTONS
 ========================================================================= */
 .button-1 {
 	text-transform: uppercase;
-	background: url('../images/elements/button-sprite.png') repeat-x 0 0; 
+	background: url('../images/elements/button-sprite.png') repeat-x 0 0;
 	text-align: center;
 	padding: 20px 50px 19px;
 	margin-bottom: 10px;
@@ -229,7 +229,7 @@ img {
 }
 .button-3 {
 	text-transform: uppercase;
-	background: url('../images/elements/button-sprite-2.png') repeat-x 0 0; 
+	background: url('../images/elements/button-sprite-2.png') repeat-x 0 0;
 	text-align: center;
 	padding: 20px 50px 19px;
 	margin-bottom: 10px;
@@ -248,7 +248,7 @@ img {
 }
 .button-2 {
 	text-transform: uppercase;
-	background: #35a1f2; 
+	background: #35a1f2;
 	text-align: center;
 	padding: 15px 40px;
 	margin-bottom: 10px;
@@ -264,7 +264,7 @@ img {
 }
 .button-4 {
 	text-transform: uppercase;
-	background: #474747; 
+	background: #474747;
 	text-align: center;
 	padding: 15px 40px;
 	margin-bottom: 10px;
@@ -286,7 +286,7 @@ img {
 }
 .button-5 {
 	text-transform: uppercase;
-	background: none; 
+	background: none;
 	text-align: center;
 	padding: 15px 100px;
 	margin-bottom: 10px;
@@ -328,7 +328,7 @@ img {
 	font-size: 14px;
 	display: block;
 	line-height: 1.5em;
-	margin: 0; 
+	margin: 0;
 	color: #b5b5b5;
 }
 .aligncenter {
@@ -376,7 +376,7 @@ img {
 	color: #777;
 	font-size: 14px;
 	line-height: 1.5em;
-	background: url('../images/elements/ul-features.png') no-repeat left center; 
+	background: url('../images/elements/ul-features.png') no-repeat left center;
 }
 .huge-ul-black li {
 	color: #333;
@@ -410,7 +410,7 @@ img {
 	font-weight: 300;
 	padding: 0 0 0 25px;
 	margin-bottom: 12px;
-	
+
 }
 .ul-type-1 li {
 	background: url('../images/elements/type-1.png') no-repeat left 1px;
@@ -498,14 +498,14 @@ img {
 	font-size: 44px;
 	line-height: 1.2em;
 	margin: 0 0 20px 0;
-	font-family: 300; 
+	font-family: 300;
 }
 .custom-type-1 h3 {
 	color: #fff;
 	font-size: 26px;
 	line-height: 1.2em;
 	margin: 0 0 20px 0;
-	font-family: 300; 
+	font-family: 300;
 }
 .custom-type-1 ul {
 	margin: 0 0 20px 0;
@@ -673,7 +673,7 @@ img {
 }
 .blog-entry .entry-content p {
 	font-size: 12px;
-	line-height: 1.7em; 
+	line-height: 1.7em;
 	margin-bottom: 20px;
 }
 .blog-masonry .blog-entry .entry-cover {
@@ -770,7 +770,7 @@ img {
 	font-size: 17px;
 }
 .blog-masonry .blog-entry .entry-content .entry-content-details h1 a:hover {
-	color: #35a1f2;	
+	color: #35a1f2;
 }
 .blog-masonry .blog-entry .entry-content .entry-content-details p {
 	margin: 0;
@@ -852,7 +852,7 @@ img {
 	vertical-align: middle;
 	font-size: 10px;
 	margin-right: 10px;
-	background: #1c8cc4;	
+	background: #1c8cc4;
 }
 .comments-area .comment-respond .comments-line {
 	width: 100%;
@@ -1406,7 +1406,7 @@ img {
 	text-align: center;
 }
 .event-type-1.event-type-2 .event .event-content .event-time {
-	margin: 0; 
+	margin: 0;
 }
 .event-type-1.event-type-2 .event .event-content .event-read {
 	float: right;
@@ -1483,7 +1483,7 @@ img {
 ========================================================================= */
 .buy-theme {
 	margin-bottom: 60px;
-	padding: 60px 0;  
+	padding: 60px 0;
 	background: #ebf4f7;
 }
 .buy-theme h2 {
@@ -1537,7 +1537,7 @@ img {
 	display: inline-block;
 	background: #fff;
 	width: 14px;
-	height: 14px;	
+	height: 14px;
 	border-radius: 30px;
 }
 .the-slider .the-bullets-dots li.active {
@@ -1624,7 +1624,7 @@ img {
 	width: 10px;
 	height: 10px;
 }
-.the-slider.project-slider .the-bullets-dots li.active { 
+.the-slider.project-slider .the-bullets-dots li.active {
 	border: 2px solid #35a1f2;
 	background: #fff;
 }
@@ -1709,7 +1709,7 @@ img {
 	text-align: center;
 	font-weight: 300;
 	font-size: 19px;
-	padding: 0 10px; 
+	padding: 0 10px;
 	line-height: 1.4em;
 	color: #3596ff;
 	margin: 0 0 15px 0;
@@ -1776,7 +1776,7 @@ img {
 	text-align: center;
 }
 .testimonials .testimonials-author .testimonials-cover img {
-	border-radius: 3px; 
+	border-radius: 3px;
 }
 .testimonials .testimonials-author h3 {
 	color: #363636;
@@ -1998,7 +1998,7 @@ img {
 }
 .widget .widget-flickr {
 	margin: 0 -10px;
-	padding: 0; 
+	padding: 0;
 	font-size: 0;
 	line-height: 0;
 }
@@ -2219,7 +2219,7 @@ img {
 }
 .tabs-box-2 .navigation-tab li.active a,
 .tabs-box-2 .navigation-tab li a:hover {
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.3); 
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 	background: url('../images/elements/tabs-bg.png') repeat-x top left;
 }
 /* ========================================================================
@@ -2931,7 +2931,7 @@ img {
 .filter-area .filter-item .filter-item-cover .filter-item-cover-hover i {
 	font-size: 25px;
 	color: #fff;
-	margin: 0 10px; 
+	margin: 0 10px;
 	display: inline-block;
 }
 .filter-area .filter-item .filter-item-details {
@@ -3323,7 +3323,7 @@ img {
 	background: url('../images/elements/our-team-c-f-bg.png') no-repeat top right;
 }
 .our-team-c .our-team-c-member .our-team-c-member-socials.our-team-c-member-socials-male {
-	background: #2a81c2; 
+	background: #2a81c2;
 }
 .our-team-c .our-team-c-member .our-team-c-member-socials.our-team-c-member-socials-male li a {
 	color: #35a1f2;
@@ -3332,7 +3332,7 @@ img {
 	color: #fff;
 }
 .our-team-c .our-team-c-member .our-team-c-member-socials.our-team-c-member-socials-female {
-	background: #a12548; 
+	background: #a12548;
 }
 .our-team-c .our-team-c-member .our-team-c-member-socials.our-team-c-member-socials-female li a {
 	color: #cf345f;
@@ -3643,7 +3643,7 @@ img {
 	display: inline-block;
 	*zoom: 1;
 	*display: inline;
-	margin-left: 15px; 
+	margin-left: 15px;
 }
 .footer-model-1 .footer-bottom-line .footer-socials li a {
 	display: block;
@@ -3788,7 +3788,7 @@ img {
 	color: #fff;
 	font-weight: 300;
 	margin: 0;
-	font-size: 14px; 
+	font-size: 14px;
 }
 .footer-model-2 .location-map .contact-form .contact-line:-moz-placeholder,
 .footer-model-2 .location-map .contact-form .contact-area:-moz-placeholder {
@@ -4470,7 +4470,7 @@ img {
                                 START RESPONSIVE
 ========================================================================= */
 @media (min-width: 992px) and (max-width: 1200px) { }
-@media (min-width: 768px) and (max-width: 992px) { }	
+@media (min-width: 768px) and (max-width: 992px) { }
 @media (min-width: 992px) { }
 @media (max-width: 1200px) { }
 @media (min-width: 992px) {
@@ -4512,7 +4512,7 @@ img {
 		height: auto;
 	}
 	.header-model-1 .header-top-line ul {
-		text-align: center; 
+		text-align: center;
 		border: 0;
 	}
 	.footer-model-1 .footer-bottom-line .footer-socials,

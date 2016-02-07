@@ -1,7 +1,70 @@
 ---
 title: Kontakt
 layout: layout.hbs
+mapUrl: "https://www.google.com/maps/embed/v1/place?key=AIzaSyD8LtLL28qYyP1r1cjqeZaWGbPTTm51IqE&q=place_id:ChIJq7sLiMQnGEcR44UbM3YbQP4"
+imageRight: { title: Widok z parkingu, url: 'http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454772255/metalmax/kontakt/1433580584532.jpg' }
+imageLeft: { title: Widok od ulicy Zagnańskiej, url: 'http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454772255/metalmax/kontakt/DSC_2343.jpg' }
 ---
-<p>
-  Kontakt
-</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <h1>Adres</h1>
+      <p><strong>Metal-Max&nbsp;</strong></p>
+      <p><span>ul. Zagnańska 84a</span></p>
+      <p><span>25-528,&nbsp;</span>Kielce</p>
+      <p><span style="font-size:12px">tel. <strong>+48 41 362 66 60</strong></span></p>
+    </div>
+    <div class="col-md-9">
+      <iframe src="{{mapUrl}}"  width="800" height="350" frameborder="0" style="border:0"></iframe>
+    </div>
+  </div>
+
+  <hr/>
+
+  <div class="filter-area">
+
+    <div class="row" data-tesla-plugin="masonry">
+
+      <div class="col-md-6 design col-xs-6">
+        {{#imageLeft}}
+        <div class="filter-item">
+          <div class="filter-item-cover">
+            <div class="filter-item-cover-hover">
+              <div class="filter-item-cover-elements">
+                <a href="{{url}}" class="swipebox"><i class="icon-336" title="336"></i></a>
+              </div>
+            </div>
+            <img src="{{url}}" alt="{{title}}" />
+          </div>
+
+          <div class="filter-item-details">
+            <p>{{title}}</p>
+          </div>
+          {{/imageLeft}}
+        </div>
+      </div>
+
+      <div class="col-md-6 design col-xs-6">
+        {{#imageRight}}
+        <div class="filter-item">
+          <div class="filter-item-cover">
+            <div class="filter-item-cover-hover">
+              <div class="filter-item-cover-elements">
+                <a href="{{url}}" class="swipebox"><i class="icon-336" title="336"></i></a>
+              </div>
+            </div>
+            <img src="{{url}}" alt="{{title}}" />
+          </div>
+
+          <div class="filter-item-details">
+            <p>{{title}}</p>
+          </div>
+          {{/imageRight}}
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
