@@ -14,3 +14,9 @@ In new terminal start http server and point to *build* directory
 
 * **Livereload** is used to ease development.
 * If there is no http-server install it with ``` $ npm i -g http-server ```
+
+## Deployment
+
+    $ npm i
+    $ metalsmith
+    $ npm run deploy
