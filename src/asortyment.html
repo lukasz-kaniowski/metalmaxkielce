@@ -1,7 +1,45 @@
 ---
 title: Asortyment
 layout: layout.hbs
+images:
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454881997/metalmax/asortyment/DSC_2270.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454765462/metalmax/asortyment/DSC_2227.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454765404/metalmax/asortyment/DSC_2229.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454765408/metalmax/asortyment/DSC_2233.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454765690/metalmax/asortyment/DSC_2234.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454765636/metalmax/asortyment/DSC_2235.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454765475/metalmax/asortyment/DSC_2236.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454765476/metalmax/asortyment/DSC_2237.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454765527/metalmax/asortyment/DSC_2238.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454765783/metalmax/asortyment/DSC_2241.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454881995/metalmax/asortyment/DSC_2269.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454765782/metalmax/asortyment/DSC_2242.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454765553/metalmax/asortyment/DSC_2243.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454765606/metalmax/asortyment/DSC_2244.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454881992/metalmax/asortyment/DSC_2249.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454765724/metalmax/asortyment/DSC_2261.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454765721/metalmax/asortyment/DSC_2262.jpg"
+  - "http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454765826/metalmax/asortyment/DSC_2265.jpg"
 ---
-<p>
-  Asortyment
-</p>
+<div class="container">
+  <div class="filter-area">
+    <div class="row" data-tesla-plugin="masonry">
+      {{#images}}
+      <div class="col-md-4 design col-xs-6">
+        <div class="filter-item">
+          <div class="filter-item-cover">
+            <div class="filter-item-cover-hover">
+              <div class="filter-item-cover-elements">
+                <a href="{{.}}" class="swipebox"><i class="icon-336" title="336"></i></a>
+              </div>
+            </div>
+            <img src="{{.}}" alt="{{title}}" />
+          </div>
+
+        </div>
+      </div>
+
+      {{/images}}
+    </div>
+  </div>
+</div>
