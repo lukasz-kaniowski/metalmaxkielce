@@ -1,5 +1,22 @@
-/* --- DEFAULT CSS --- */
+/* --- my additional -- */
+.logo-title {
+  margin: 0;
+  font-family: Coustard,"Palatino Linotype","Book Antiqua",Palatino,"Times New Roman",serif;
+  font-weight: normal;
+  font-family: "futura-pt";
+  font-size: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-weight: 700;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1.2em;
+}
+
+ /*--- DEFAULT CSS --- */
 @charset "UTF-8";
+
 
 /* Font import */
 
@@ -9,9 +26,6 @@
   src: url('fonts/icomoon.svg');
   src: url('fonts/icomoon.ttf');
   src: url('fonts/icomoon.woff');
-}
-hr {
-	margin-bottom: 60px;
 }
 * {
     margin: 0;
