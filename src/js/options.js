@@ -111,7 +111,7 @@ $(document).ready(function () {
 /* ================= START PLACE HOLDER ================= */
 $(document).ready(function ($) {
     "use strict";
-    $('input[placeholder], textarea[placeholder]').placeholder();
+    // $('input[placeholder], textarea[placeholder]').placeholder();
 });
 /* ================= END PLACE HOLDER ================= */
 
