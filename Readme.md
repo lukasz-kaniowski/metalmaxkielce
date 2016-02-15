@@ -1,5 +1,11 @@
 # Website for Metal Max Kielce
 
+## Features
+
+* [Google structured data](https://developers.google.com/structured-data/local-businesses/)
+* Google analytics
+* Images on cloudinary
+
 ## Development
 
     $ npm i
