@@ -14,6 +14,9 @@ asortyment:
     - { title: 'haki, śruby rzymskie ...', url: 'http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454772282/metalmax/glowna/DSC_2302.jpg' }
     - { title: 'liny, sznury', url: 'http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454772282/metalmax/glowna/lagomkeps.jpg' }
     - { title: tarcze, url: 'http://res.cloudinary.com/ddqdgtfxl/image/upload/c_scale,w_600/v1454772282/metalmax/glowna/1433580584956.jpg' }
+openingTimes:
+  Weekdays: '7:00 - 17:00'
+  Saturday: '8:00 - 13:00'
 ---
 <div class="container">
   {{#jumbotron}}
@@ -22,8 +25,13 @@ asortyment:
       <img src="{{image}}" alt="" />
     </div>
   </div>
-  <h1 class="aligncenter" class="logo-title">{{title}}</h1>
-  <p class="aligncenter">{{description}}</p>
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="aligncenter" class="logo-title">{{title}}</h1>
+      <p class="aligncenter">{{description}}</p>
+    </div>
+  </div>
+
   {{/jumbotron}}
 
   {{#asortyment}}
@@ -72,3 +80,23 @@ asortyment:
   {{/asortyment}}
 
 </div>
+<script type="application/ld+json">
+{ "@context" : "http://schema.org",
+"@type" : "LocalBusiness",
+"url" : "http://www.metalmaxkielce.pl",
+"openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "07:00",
+    "closes": "17:00"
+  },
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Saturday"],
+    "opens": "08:00",
+    "closes": "13:00"
+  }
+]
+}
+</script>
